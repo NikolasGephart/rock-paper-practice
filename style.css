@@ -1,6 +1,16 @@
 .backdrop {
   min-height:100vh;
-  background-image: url(https://gfycat.com/ifr/BountifulFairKiwi);
+  background-image: url("https://images.unsplash.com/photo-1529573813483-53bd9ede667e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1053&q=80");
   background-size: cover;
   background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.neon-glow{
+  
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+box-shadow: 0px 0px 1vh 0.5vh rgba(255, 255, 255, 0.5);
 }
