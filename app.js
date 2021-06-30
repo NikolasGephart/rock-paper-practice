@@ -19,17 +19,17 @@ let options = {
 
 
 function rockWin() {
-  console.log('moo')
+  console.log('Rock beats Scissors!')
   document.getElementById("speak-output").innerText = "The Cow says Moo."
 }
 
 function paperWin() {
-  console.log('moo')
+  console.log('Paper beats Rock!')
   document.getElementById("speak-output").innerText = "The Cow says Moo."
 }
 
 function scissorwin() {
-  console.log('moo')
+  console.log('Scissors beats Paper!')
   document.getElementById("speak-output").innerText = "The Cow says Moo."
 }
 
